@@ -14,8 +14,8 @@ mvn quarkus:dev
 ```
 3. Send new transactions (requires httpie):
 ```bash
-http ":8080/demo?name=MacroHard&amount=20"
-http ":8080/demo?name=BlueHat&amount=10"
+localhost:8080/demo?name=MacroHard&amount=20"
+localhost:8080/demo?name=BlueHat&amount=10"
 ```
 4. Use any Kafka viewer such as Kafka Tools to see the written records
 
